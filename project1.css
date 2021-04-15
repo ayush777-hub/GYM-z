@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+div.Pagename{
+    border: rgb(165, 165, 228) 3px solid;
+    background-color: rgba(174, 27, 219, 0.473);
+    text-align: center;
+    width:100vw;
+    height: fit-content;
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;    font-size: 20px;
+    text-shadow: rgb(205, 60, 235) 2px 2px 7px;
+}
+.myname{
+    width: auto;
+    text-align: center;
+}
+.logo{
+    padding: 16px 20px;
+    float: left;
+    height: 100px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background: url(https://media.gettyimages.com/photos/it-all-starts-with-determination-picture-id1067774764?s=2048x2048);
+    background-position: right;
+    position: sticky;
+    top: 0px;
+    margin: 10px 0px;
+    border: 3px rgb(255, 0, 0) solid;
+    border-radius: 5px;
+    width: 100vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbtn{
+    display: flex;
+    align-items:  center;
+    justify-content:flex-start;
+    width: 70vw;
+    flex-grow: 1;
+}
+.listitems{
+    border :2px solid rgb(255, 4, 4);
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: larger;
+    margin: 0px 20px;
+    background: rgba(0, 0, 0, 0.527);
+}
+.listitems:hover{
+    background-color: rgba(255, 0, 0, 0.507);
+}
+.mylist{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    display: inline;
+    list-style: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 2px 5px 4px black;
+}
+.mysearch{
+    display: inline-block;
+    width: 100px;
+    padding-right: 20px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.navbar input{
+    text-overflow: clip;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 100px;
+}
+.searchbtn{
+    color:black; 
+    box-shadow: 3px 5px 15px rgba(255, 0, 0, 0.712);
+}
+.searchbtn:active{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.navbar input:hover{
+    text-shadow: 1px 1px 3px rgba(255, 17, 0, 0.781);
+}
+.myimage{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:0px 70px;
+    height: 90%;
+    padding: 10px 10px;
+    order: 3;
+}
+#Username{
+    display: inline-block;
+}
+.formandfaq{   
+    background: url(https://media.gettyimages.com/photos/strong-muscular-men-picture-id618209684?s=2048x2048);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.formformat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    zoom: 0.7;
+}
+.signinform{
+    margin: 30px;
+    text-align: right;
+}
+.signin{
+    display: inline-block;
+    border:red 5px solid;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-align: right;
+    font-weight: 500;
+    font-size:x-large;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.fillform input{
+    padding: 5px 5px;
+    font-size: large;
+}
+.signinbtn{
+    font-size: large;
+    font-weight: 600;
+    font-family: cursive;
+}
+.signin:hover{
+    background-color: rgba(255, 0, 0, 0.377);
+}
+.faq{
+    padding: 20px 20px;
+    color: ivory;
+    border : 1px solid black;
+    border-radius: 10px;
+    background-color : rgba(255, 0, 0, 0.404);
+    float: right;
+    width: 50vw;
+    font-size:larger;
+    font-family: cursive;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: justify;
+}
+
+
+.fillform{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.fillform:hover{
+    box-shadow: 5px 5px 10px rgb(17, 0, 255);
+}
+.myform{
+    display: flex;
+    border:red 5px solid;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px 10px;
+    height: auto;
+    text-align: right;
+    font-size: x-large;
+    margin: 100px 30px;
+}
+.myform:hover{
+    background-color: rgba(243, 10, 10, 0.39);
+}
+.submission{
+    font-size: large;
+    font-family: cursive;
+    font-weight:bold;
+    padding: 5px 5px ;
+}
+.signbtn:hover{
+    box-shadow: 5px 5px 20px rgb(119, 0, 255);
+}
+.signinbtn{
+    font-size: large;
+}
+.vid{
+    background-image: url(https://media.cntraveler.com/photos/5f6a575bf418844234b01030/16:9/w_2560%2Cc_limit/FourSeasonsSantaFe-2020.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+.videdit{
+    display: flex;
+    align-items: center;
+}
+.text{
+    display: flex;
+    font-size: 55px;
+    font-family: 'Parisienne', cursive;
+    color: azure;
+    align-items: center;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 0px black solid;
+    border-radius: 50px;
+}
+.vidformat:hover{
+    text-shadow: 5px 5px 10px rgb(0, 255, 221);
+}
+.vidformat{
+    display: flex;
+    border:5px crimson solid;
+    margin: 10px 0px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    border: 0px rgb(121,121,121) solid;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+body{
+    background: black;
+   background-repeat: no-repeat;
+    background-size: 100rem;
+}
